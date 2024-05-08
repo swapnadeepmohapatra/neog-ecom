@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: #f97300;
+  --secondary-color: #e2dfd0;
+  --tertiary-color: #32012f;
+  --fourth-color: #524c42;
+  --card-color: #fff2d7;
+  --filter-bar-color: #f6e9b2;
+  --gray-shade: #3c5b6f;
+  --light-purple: rgb(154, 128, 197);
+  --dark-green: #208854;
+}
+
+body {
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  min-height: 100vh;
 }
